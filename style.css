@@ -1,0 +1,255 @@
+body{
+  margin: 0px;
+ 
+    display: inline-box;
+
+
+}
+body ul, li{
+  margin: 0px;
+  padding: 0px;
+  list-style: none; 
+}
+
+.logo img{
+  width: 80px;
+  height: 76px;
+  display: block;
+  transition: 1s;
+}
+   .logo img:hover{
+    transform: scale(1.2);
+    transition: 1s;
+   }
+nav li{
+  text-decoration: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+  color:#E3320B;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+
+
+.conteiner{
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+  align-items: center;
+  padding: 30px;
+  border-bottom: 1px inset #000;
+}
+
+.menu, ul{
+  display: flex;
+  padding-right: 50%;
+}
+
+.menu, ul, li{
+  position: right;
+  line-height: 0px;
+  margin:0 5px;
+}
+
+.menu a{
+   text-decoration: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color:#E3320B;
+  font-size: 15px;
+  padding:15px;
+  display: block;
+  text-align: center;
+  background-color:	black;
+  
+
+}
+nav ul{
+float: left;
+margin-right: 30px;
+}
+nav a{
+  padding:20px;
+  display: block;
+  text-decoration: none;
+  text-align: center;
+
+}
+
+
+nav a:hover{
+  box-pack: 3px 6px 10px #FD5B0D;
+  display: inline-box;
+  background-color:#FD5B0D ;	
+  color:#000000;
+ 
+}
+
+ .flex{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   max-width: 10px;
+   margin: 0 auto;
+ }
+
+.titulo{
+   text-align: center;
+   margin-top: 100px;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   color: black;
+   font-size: auto;
+   
+}
+
+.titulo:after {
+   content:'';
+   display: block;
+   margin: 0 auto;
+   width: 600px;
+   height: 1px;
+   
+   background-color: #E30B5F;
+
+}
+.explicao{
+  
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   color: #fff;
+   font-size: 17px;
+  text-align: center;
+}
+
+.logomina{
+ 
+  height: 76px;
+  display: block;
+  width: inherit;
+  
+}
+
+#redes{
+  display:inline-flex; 
+  justify-content: start;
+  
+}
+#rede1 i{
+  font-size: 40px;
+  color: rgb(255, 255, 255);
+  transition: 0.3s;
+}
+#rede1 i:hover{
+  font-size: 50px;
+  color: rgb(29, 155, 240);
+  transition: 0.3s;
+}
+
+#rede2 i{
+  font-size: 40px;
+  color: rgb(255, 255, 255);
+  transition: 0.3s;
+}
+#rede2 i:hover{
+  font-size: 50px;
+  color: rgb(248, 35, 255);
+  transition: 0.3s;
+}
+
+#rede3 i{
+  font-size: 40px;
+  color: rgb(255, 255, 255);
+  transition: 0.3s;
+}
+#rede3 i:hover{
+  font-size: 50px;
+  color: rgb(255, 69, 0);
+  transition: 0.3s;
+}
+
+.rodape{
+  margin:0px;
+  display: flex;
+  justify-content: space-around;
+   background-color: #000000;
+   padding-top: 50px;
+  padding-bottom:50px;
+ 
+ 
+}
+
+#container{
+  width: 480px;
+  height: auto;
+  background-color: #ddd;
+}
+
+.principal{
+  width: 480px;
+  height: 270px;
+  border: solid 1px #000;
+  overflow: hidden;
+}
+
+.slide{
+  display: flex;
+  width: 400%;
+  transition: all .8s;
+  
+}
+
+.slide img{
+  width: 480px;
+  height: 270px;
+  
+}
+
+label img{
+  width: 120px;
+  height: 70px;
+  cursor: pointer;
+  float: left;
+} 
+
+#foto2:checked~ .principal .slide{
+  margin-left: -100%;
+}
+
+#foto3:checked~ .principal .slide{
+  margin-left: -200%
+}
+
+#foto4:checked~ .principal .slide{
+  margin-left: -300%
+}
+
+input[name="grupo"]{
+  display: none
+}
+
+.texto{
+   text-align: center;
+   margin-top: 100px;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   color: black;
+   font-size: auto;
+}
+
+.texto::after {
+   content:'';
+   display: block;
+   margin: 0 auto;
+   width: 600px;
+   height: 1px;
+   
+   background-color: #E30B5F;
+   }
+
+   #relacoes{
+   text-align: center;
+   margin-left: 100px;
+   margin-right: 100px;
+   margin-bottom: 100px;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   color: black;
+   font-size: auto;
+   }
